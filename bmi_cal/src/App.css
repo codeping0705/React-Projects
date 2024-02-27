@@ -1,0 +1,84 @@
+/* App.css */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  /* Dark background color */
+}
+
+div {
+  background-color: #1e1e1e;
+  /* Darker background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(5, 5, 5, 0.993);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  /* White text color */
+}
+
+.out1,
+.out2 {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #111;
+  box-shadow: 4px 4px 10px rgba(5, 5, 5, 0.993);
+}
+
+.slider-output {
+  margin-bottom: 5px;
+  color: #fff;
+  /* White text color */
+}
+
+.slider-output1 {
+  margin-bottom: 5px;
+  color: #fff;
+  /* White text color */
+}
+
+.slider-input {
+  width: 100%;
+  transition: 1s;
+}
+
+.output-section {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid #111;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  /* Blue button color */
+  color: #fff;
+  font-weight: bold;
+  /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.output1 {
+  color: red; /* Red text color */
+  font-weight: bold;
+  font-size: 1.2em; /* Larger font size */
+}
+
+.normal-weight {
+  color: green; /* Green text color for Normal Weight */
+}
